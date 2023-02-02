@@ -5,7 +5,6 @@
 }
 body{
     background-color: rgba(127, 127, 127, 46%) ;
-    -ms-text-size-adjust: 2rem;
 }
 li{
     list-style: none;
@@ -14,24 +13,29 @@ img{
     border: 3px solid black;
     width: 100%;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    font-weight: bold;
+}
 .navbar {
-    padding: 2rem;
     background-color: #A7727D54;
+    padding: 2rem;
     color: rgba(0, 0, 0, 60%);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .heading{
-    width: 15rem;
     text-align: left;
 }
 .content{
-    font-size: 1.5rem;
     display:flex;
     flex-direction: row;
     justify-content: end;
-    gap: 3rem;
+    align-content: center;
+    gap: 2rem;
 }
 .container-left{
     text-size-adjust: 2rem;
@@ -42,13 +46,14 @@ img{
 .images {
     align-content: center;
     width: 20rem;
+    border-radius: 8px;
 }
 .container-right{ 
     text-align: center;
   
 }
 .message{
-    padding: 2rem;
+    padding: 1.5rem;
     font-size: 2rem;
 }
 .socialmedia-links{
