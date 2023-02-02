@@ -6,3 +6,25 @@
 body{
     background-color: aqua;
 }
+li{
+    list-style: none;
+}
+.navbar {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.heading{
+    text-align: center;
+}
+.content{
+    display:flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.container-left{
+    width: 2rem;
+}
