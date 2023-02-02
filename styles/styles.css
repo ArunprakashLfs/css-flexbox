@@ -12,6 +12,7 @@ li{
 img{
     border: 3px solid black;
     width: 100%;
+    border-radius: 25px;
 }
 .container{
     display: flex;
@@ -46,7 +47,7 @@ img{
 .images {
     align-content: center;
     width: 20rem;
-    border-radius: 8px;
+
 }
 .container-right{ 
     text-align: center;
