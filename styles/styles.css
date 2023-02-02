@@ -22,6 +22,7 @@ img{
 }
 .navbar {
     background-color: #A7727D54;
+    width: auto;
     padding: 2rem;
     color: rgba(0, 0, 0, 60%);
     display: flex;
