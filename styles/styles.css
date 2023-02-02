@@ -4,27 +4,58 @@
 
 }
 body{
-    background-color: aqua;
+    background-color: rgba(127, 127, 127, 46%) ;
+    -ms-text-size-adjust: 2rem;
 }
 li{
     list-style: none;
 }
+img{
+    border: 3px solid black;
+    width: 100%;
+}
 .navbar {
-    margin: 1rem;
-    padding: 1rem;
-    background-color: antiquewhite;
+    padding: 2rem;
+    background-color: #A7727D54;
+    color: rgba(0, 0, 0, 60%);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .heading{
-    text-align: center;
+    width: 15rem;
+    text-align: left;
 }
 .content{
+    font-size: 1.5rem;
     display:flex;
     flex-direction: row;
-    gap: 1rem;
+    justify-content: end;
+    gap: 3rem;
 }
 .container-left{
-    width: 2rem;
+    text-size-adjust: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+.images {
+    align-content: center;
+    width: 20rem;
+}
+.container-right{ 
+    text-align: center;
+    height: 30rem;
+  
+}
+.message{
+    padding: 2rem;
+    font-size: 2rem;
+}
+.socialmedia-links{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 3rem;
 }
